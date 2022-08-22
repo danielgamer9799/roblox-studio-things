@@ -6,3 +6,5 @@ game.StarterGui:SetCore("SendNotification", {
 	Button2 = "no"; --the button 2 for the notification (optinial)
 	Duration = "7"; --the duration for the notification, its gotta be a number or it will be put as default, needed
 })
+
+# Also the script can be put anywere
