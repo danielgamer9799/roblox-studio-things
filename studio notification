@@ -7,4 +7,4 @@ game.StarterGui:SetCore("SendNotification", {
 	Duration = "7"; --the duration for the notification, its gotta be a number or it will be put as default, needed
 })
 
---Also the script can be put anywere (except server script service)
+--Also i put the script at buttons, workspace, and starter gui (i reccomend to put it in those)
