@@ -7,7 +7,7 @@
 	Button1 = "ok"; --the button 1 for the notification (optinial)
 	Button2 = "no"; --the button 2 for the notification (optinial)
 	Duration = "7"; --the duration for the notification, its gotta be a number or it will be put as default, needed
-})
+ })
 
---Also i put the script at buttons, workspace, and starter gui (i reccomend to put it in those)
+ --Also i put the script at buttons, workspace, and starter gui (i reccomend to put it in those)
 '''
