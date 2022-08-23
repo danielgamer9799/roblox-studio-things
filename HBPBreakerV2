@@ -1,0 +1,291 @@
+--danielgamer
+local HBPBreakerGui = Instance.new("ScreenGui")
+local Mainframe = Instance.new("Frame")
+local UIGradient = Instance.new("UIGradient")
+local UICorner = Instance.new("UICorner")
+local TextLabel = Instance.new("TextLabel")
+local UICorner_2 = Instance.new("UICorner")
+local Pattern = Instance.new("ImageLabel")
+local Codes = Instance.new("TextButton")
+local UICorner_3 = Instance.new("UICorner")
+local Shadow = Instance.new("Frame")
+local UICorner_4 = Instance.new("UICorner")
+local TextLabel_2 = Instance.new("TextLabel")
+local MVP = Instance.new("TextButton")
+local UICorner_5 = Instance.new("UICorner")
+local Shadow_2 = Instance.new("Frame")
+local UICorner_6 = Instance.new("UICorner")
+local TextLabel_3 = Instance.new("TextLabel")
+local MVP_2 = Instance.new("TextButton")
+local UICorner_7 = Instance.new("UICorner")
+local Shadow_3 = Instance.new("Frame")
+local UICorner_8 = Instance.new("UICorner")
+local TextLabel_4 = Instance.new("TextLabel")
+local TextLabel_5 = Instance.new("TextLabel")
+
+--Properties:
+
+HBPBreakerGui.Name = "HBPBreakerGui"
+HBPBreakerGui.Parent = game.CoreGui
+HBPBreakerGui.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
+
+Mainframe.Name = "Mainframe"
+Mainframe.Parent = HBPBreakerGui
+Mainframe.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Mainframe.BorderColor3 = Color3.fromRGB(27, 42, 53)
+Mainframe.BorderSizePixel = 0
+Mainframe.Position = UDim2.new(0.788440228, 0, 0.667262375, 0)
+Mainframe.Size = UDim2.new(0, 285, 0, 260)
+Mainframe.Active = true
+Mainframe.Draggable = true
+
+UIGradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(57, 104, 252)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(51, 68, 175))}
+UIGradient.Parent = Mainframe
+
+UICorner.CornerRadius = UDim.new(0, 4)
+UICorner.Parent = Mainframe
+
+TextLabel.Parent = Mainframe
+TextLabel.BackgroundColor3 = Color3.fromRGB(0, 187, 255)
+TextLabel.BackgroundTransparency = 0.500
+TextLabel.Size = UDim2.new(0, 285, 0, 50)
+TextLabel.Font = Enum.Font.FredokaOne
+TextLabel.Text = "HBP Breaker"
+TextLabel.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel.TextScaled = true
+TextLabel.TextSize = 14.000
+TextLabel.TextWrapped = true
+
+UICorner_2.Parent = TextLabel
+
+Pattern.Name = "Pattern"
+Pattern.Parent = Mainframe
+Pattern.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Pattern.BackgroundTransparency = 1.000
+Pattern.Position = UDim2.new(-0.001754386, 0, 0.192307696, 0)
+Pattern.Size = UDim2.new(0, 285, 0, 210)
+Pattern.ZIndex = 0
+Pattern.Image = "rbxassetid://121480522"
+Pattern.ImageTransparency = 0.600
+Pattern.ScaleType = Enum.ScaleType.Tile
+Pattern.SliceCenter = Rect.new(0, 256, 0, 256)
+Pattern.TileSize = UDim2.new(0, 45, 0, 45)
+
+Codes.Name = "Codes"
+Codes.Parent = Mainframe
+Codes.BackgroundColor3 = Color3.fromRGB(77, 100, 150)
+Codes.BorderSizePixel = 0
+Codes.Position = UDim2.new(0.180701762, 0, 0.219230771, 0)
+Codes.Size = UDim2.new(0, 180, 0, 45)
+Codes.ZIndex = 2
+Codes.Font = Enum.Font.GothamMedium
+Codes.Text = ""
+Codes.TextColor3 = Color3.fromRGB(255, 255, 255)
+Codes.TextScaled = true
+Codes.TextSize = 14.000
+Codes.TextWrapped = true
+
+UICorner_3.Parent = Codes
+
+Shadow.Name = "Shadow"
+Shadow.Parent = Codes
+Shadow.BackgroundColor3 = Color3.fromRGB(53, 69, 103)
+Shadow.BorderSizePixel = 0
+Shadow.Size = UDim2.new(1, 0, 1, 4)
+
+UICorner_4.Parent = Shadow
+
+TextLabel_2.Parent = Codes
+TextLabel_2.AnchorPoint = Vector2.new(0.5, 0.5)
+TextLabel_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_2.BackgroundTransparency = 1.000
+TextLabel_2.BorderColor3 = Color3.fromRGB(27, 42, 53)
+TextLabel_2.BorderSizePixel = 0
+TextLabel_2.Position = UDim2.new(0.5, 0, 0.544444442, 0)
+TextLabel_2.Size = UDim2.new(1, -20, 1, -20)
+TextLabel_2.ZIndex = 2
+TextLabel_2.Font = Enum.Font.GothamMedium
+TextLabel_2.Text = "Reedem All Codes"
+TextLabel_2.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_2.TextScaled = true
+TextLabel_2.TextSize = 14.000
+TextLabel_2.TextWrapped = true
+
+MVP.Name = "MVP"
+MVP.Parent = Mainframe
+MVP.BackgroundColor3 = Color3.fromRGB(77, 100, 150)
+MVP.BorderSizePixel = 0
+MVP.Position = UDim2.new(0.180701762, 0, 0.457692325, 0)
+MVP.Size = UDim2.new(0, 180, 0, 45)
+MVP.ZIndex = 2
+MVP.Font = Enum.Font.GothamMedium
+MVP.Text = ""
+MVP.TextColor3 = Color3.fromRGB(255, 255, 255)
+MVP.TextScaled = true
+MVP.TextSize = 14.000
+MVP.TextWrapped = true
+
+UICorner_5.Parent = MVP
+
+Shadow_2.Name = "Shadow"
+Shadow_2.Parent = MVP
+Shadow_2.BackgroundColor3 = Color3.fromRGB(53, 69, 103)
+Shadow_2.BorderSizePixel = 0
+Shadow_2.Size = UDim2.new(1, 0, 1, 4)
+
+UICorner_6.Parent = Shadow_2
+
+TextLabel_3.Parent = MVP
+TextLabel_3.AnchorPoint = Vector2.new(0.5, 0.5)
+TextLabel_3.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_3.BackgroundTransparency = 1.000
+TextLabel_3.BorderColor3 = Color3.fromRGB(27, 42, 53)
+TextLabel_3.BorderSizePixel = 0
+TextLabel_3.Position = UDim2.new(0.5, 0, 0.544444442, 0)
+TextLabel_3.Size = UDim2.new(1, -20, 1, -20)
+TextLabel_3.ZIndex = 2
+TextLabel_3.Font = Enum.Font.GothamMedium
+TextLabel_3.Text = "Open VIP And Mega Vip Doors"
+TextLabel_3.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_3.TextScaled = true
+TextLabel_3.TextSize = 14.000
+TextLabel_3.TextWrapped = true
+
+MVP_2.Name = "MVP"
+MVP_2.Parent = Mainframe
+MVP_2.BackgroundColor3 = Color3.fromRGB(77, 100, 150)
+MVP_2.BorderSizePixel = 0
+MVP_2.Position = UDim2.new(0.180701762, 0, 0.684615374, 0)
+MVP_2.Size = UDim2.new(0, 180, 0, 45)
+MVP_2.ZIndex = 2
+MVP_2.Font = Enum.Font.GothamMedium
+MVP_2.Text = ""
+MVP_2.TextColor3 = Color3.fromRGB(255, 255, 255)
+MVP_2.TextScaled = true
+MVP_2.TextSize = 14.000
+MVP_2.TextWrapped = true
+
+UICorner_7.Parent = MVP_2
+
+Shadow_3.Name = "Shadow"
+Shadow_3.Parent = MVP_2
+Shadow_3.BackgroundColor3 = Color3.fromRGB(53, 69, 103)
+Shadow_3.BorderSizePixel = 0
+Shadow_3.Size = UDim2.new(1, 0, 1, 4)
+
+UICorner_8.Parent = Shadow_3
+
+TextLabel_4.Parent = MVP_2
+TextLabel_4.AnchorPoint = Vector2.new(0.5, 0.5)
+TextLabel_4.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_4.BackgroundTransparency = 1.000
+TextLabel_4.BorderColor3 = Color3.fromRGB(27, 42, 53)
+TextLabel_4.BorderSizePixel = 0
+TextLabel_4.Position = UDim2.new(0.5, 0, 0.544444442, 0)
+TextLabel_4.Size = UDim2.new(1, -20, 1, -20)
+TextLabel_4.ZIndex = 2
+TextLabel_4.Font = Enum.Font.GothamMedium
+TextLabel_4.Text = "Open Secret Area"
+TextLabel_4.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_4.TextScaled = true
+TextLabel_4.TextSize = 14.000
+TextLabel_4.TextWrapped = true
+
+TextLabel_5.Parent = Mainframe
+TextLabel_5.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_5.BackgroundTransparency = 1.000
+TextLabel_5.Position = UDim2.new(0, 0, 0.903846145, 0)
+TextLabel_5.Size = UDim2.new(0, 284, 0, 25)
+TextLabel_5.Font = Enum.Font.SourceSans
+TextLabel_5.Text = "press \"p\" to open and close the gui"
+TextLabel_5.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel_5.TextScaled = true
+TextLabel_5.TextSize = 14.000
+TextLabel_5.TextWrapped = true
+
+-- Scripts:
+
+local function ALBTCG_fake_script() -- Codes.LocalScript 
+	local script = Instance.new('LocalScript', Codes)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		local function LoadCodes()
+			workspace.Code.CanCollide = false
+			workspace.Code.Transparency = 0.5
+			workspace.Code2.CanCollide = false
+			workspace.Code2.Transparency = 0.5
+			workspace.Code22.CanCollide = false
+			workspace.Code22.Transparency = 0.5
+			workspace.Code222.CanCollide = false
+			workspace.Code222.Transparency = 0.5
+			workspace.Code3.CanCollide = false
+			workspace.Code3.Transparency = 0.5
+			workspace.Code4.CanCollide = false
+			workspace.Code4.Transparency = 0.5
+			workspace.Code44.CanCollide = false
+			workspace.Code44.Transparency = 0.5
+			workspace.Code444.CanCollide = false
+			workspace.Code444.Transparency = 0.5
+			workspace.Code5.CanCollide = false
+			workspace.Code5.Transparency = 0.5
+			workspace.Code6.CanCollide = false
+			workspace.Code6.Transparency = 0.5
+			workspace.Code7.CanCollide = false
+			workspace.Code7.Transparency = 0.5
+			workspace.Code8.CanCollide = false
+			workspace.Code8.Transparency = 0.5
+			workspace.Code88.CanCollide = false
+			workspace.Code88.Transparency = 0.5
+			workspace.Code9.CanCollide = false
+			workspace.Code9.Transparency = 0.5
+			workspace.SpecialCode1.CanCollide = false
+			workspace.SpecialCode1.Transparency = 0.5
+			workspace.SpecialCode2.CanCollide = false
+			workspace.SpecialCode2.Transparency = 0.5
+			workspace.SpecialCode3.CanCollide = false
+			workspace.SpecialCode3.Transparency = 0.5
+		end
+		LoadCodes()
+	end)
+end
+coroutine.wrap(ALBTCG_fake_script)()
+local function LOTMH_fake_script() -- MVP.LocalScript 
+	local script = Instance.new('LocalScript', MVP)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		local function OpenDoors()
+			workspace.VIPdoor.CanCollide = false
+			workspace.VIPdoor.Transparency = 0.5
+			workspace.MegaVIPdoor.CanCollide = false
+			workspace.MegaVIPdoor.Transparency = 0.5
+		end
+		OpenDoors()
+	end)
+end
+coroutine.wrap(LOTMH_fake_script)()
+local function TNOMXGL_fake_script() -- MVP_2.LocalScript 
+	local script = Instance.new('LocalScript', MVP_2)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		local function OpenSecret()
+			workspace.PremiumWall.CanCollide = false
+			workspace.PremiumWall.Transparency = 0.5
+		end
+		OpenSecret()
+	end)
+end
+coroutine.wrap(TNOMXGL_fake_script)()
+local function QDZC_fake_script() -- HBPBreakerGui.LocalScript 
+	local script = Instance.new('LocalScript', HBPBreakerGui)
+
+	game.Players.LocalPlayer:GetMouse().KeyDown:Connect(function(key)
+		if key == "p" then
+			if script.Parent.Mainframe.Visible == true then
+				script.Parent.Mainframe.Visible = false
+			else
+				script.Parent.Mainframe.Visible = true
+			end
+		end
+	end)
+end
+coroutine.wrap(QDZC_fake_script)()
