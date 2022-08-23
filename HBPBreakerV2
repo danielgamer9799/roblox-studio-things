@@ -296,7 +296,7 @@ local function GPRVNGU_fake_script() -- HBPBreakerGui.Notification
 		Title = "Loaded HBPBreaker V2!";
 		Text = "Have fun exploiting!";
 		Icon = "http://www.roblox.com/asset/?id=418819695";
-		Duration = "7"; 
+		Duration = "10"; 
 		Button1 = "ok";
 	})
 end
