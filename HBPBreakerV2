@@ -1,4 +1,4 @@
---danielgamer
+--danserr
 local HBPBreakerGui = Instance.new("ScreenGui")
 local Mainframe = Instance.new("Frame")
 local UIGradient = Instance.new("UIGradient")
@@ -34,7 +34,7 @@ Mainframe.Parent = HBPBreakerGui
 Mainframe.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 Mainframe.BorderColor3 = Color3.fromRGB(27, 42, 53)
 Mainframe.BorderSizePixel = 0
-Mainframe.Position = UDim2.new(0.788440228, 0, 0.667262375, 0)
+Mainframe.Position = UDim2.new(0.00759840012, 0, 0.0130801201, 0)
 Mainframe.Size = UDim2.new(0, 285, 0, 260)
 Mainframe.Active = true
 Mainframe.Draggable = true
@@ -205,7 +205,7 @@ TextLabel_5.TextWrapped = true
 
 -- Scripts:
 
-local function ALBTCG_fake_script() -- Codes.LocalScript 
+local function RBVQNW_fake_script() -- Codes.LocalScript 
 	local script = Instance.new('LocalScript', Codes)
 
 	script.Parent.MouseButton1Click:Connect(function()
@@ -248,8 +248,8 @@ local function ALBTCG_fake_script() -- Codes.LocalScript
 		LoadCodes()
 	end)
 end
-coroutine.wrap(ALBTCG_fake_script)()
-local function LOTMH_fake_script() -- MVP.LocalScript 
+coroutine.wrap(RBVQNW_fake_script)()
+local function FYOAA_fake_script() -- MVP.LocalScript 
 	local script = Instance.new('LocalScript', MVP)
 
 	script.Parent.MouseButton1Click:Connect(function()
@@ -262,8 +262,8 @@ local function LOTMH_fake_script() -- MVP.LocalScript
 		OpenDoors()
 	end)
 end
-coroutine.wrap(LOTMH_fake_script)()
-local function TNOMXGL_fake_script() -- MVP_2.LocalScript 
+coroutine.wrap(FYOAA_fake_script)()
+local function WSCCMD_fake_script() -- MVP_2.LocalScript 
 	local script = Instance.new('LocalScript', MVP_2)
 
 	script.Parent.MouseButton1Click:Connect(function()
@@ -274,8 +274,8 @@ local function TNOMXGL_fake_script() -- MVP_2.LocalScript
 		OpenSecret()
 	end)
 end
-coroutine.wrap(TNOMXGL_fake_script)()
-local function QDZC_fake_script() -- HBPBreakerGui.LocalScript 
+coroutine.wrap(WSCCMD_fake_script)()
+local function IONJN_fake_script() -- HBPBreakerGui.KeyBind 
 	local script = Instance.new('LocalScript', HBPBreakerGui)
 
 	game.Players.LocalPlayer:GetMouse().KeyDown:Connect(function(key)
@@ -288,4 +288,16 @@ local function QDZC_fake_script() -- HBPBreakerGui.LocalScript
 		end
 	end)
 end
-coroutine.wrap(QDZC_fake_script)()
+coroutine.wrap(IONJN_fake_script)()
+local function GPRVNGU_fake_script() -- HBPBreakerGui.Notification 
+	local script = Instance.new('LocalScript', HBPBreakerGui)
+
+	game.StarterGui:SetCore("SendNotification", {
+		Title = "Loaded HBPBreaker V2!";
+		Text = "Have fun exploiting!";
+		Icon = "http://www.roblox.com/asset/?id=418819695";
+		Duration = "7"; 
+		Button1 = "ok";
+	})
+end
+coroutine.wrap(GPRVNGU_fake_script)()
